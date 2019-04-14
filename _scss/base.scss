@@ -1,0 +1,17 @@
+body {
+  background-color: $dark-grey;
+  color: $white;
+  font-family: 'Lelo', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.container {
+  padding: 25px 25px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1326px;
+}

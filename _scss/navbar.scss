@@ -1,0 +1,48 @@
+.Navbar {
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  &-logo {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+    @media (min-width: 768px) {
+      font-size: 4rem;
+    }
+  }
+
+  &-subTitle {
+    margin-top: 0;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    opacity: 0.8;
+    @media (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  &-links {
+    text-align: right;
+    margin-bottom: 2rem;
+  }
+
+  &-link {
+    display:inline;
+    text-align: right;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    text-decoration: underline;
+
+    @media (min-width: 768px) {
+      font-size: 2rem;
+      margin-left: 4rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+- name: Mon CDI 1
+  client : Mon CDI
+  position: conception + réalisation
+  image: example.jpg
+- name: Mon CDI 2
+  client : Mon CDI
+  position: conception + réalisation
+  image: example.jpg
+- name: Mon CDI 3
+  client : Mon CDI
+  position: conception + réalisation
+  image: example.jpg
+- name: Mon CDI 4
+  client : Mon CDI
+  position: conception + réalisation
+  image: example.jpg
+- name: Mon CDI 5
+  client : Mon CDI
+  position: conception + réalisation
+  image: example.jpg
+- name: Mon CDI 6
+  client : Mon CDI
+  position: conception + réalisation
+  image: example.jpg
