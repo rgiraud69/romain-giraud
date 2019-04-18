@@ -1,24 +1,45 @@
-- name: Mon CDI 1
-  client : Mon CDI
-  position: conception + réalisation
-  image: example.jpg
-- name: Mon CDI 2
-  client : Mon CDI
-  position: conception + réalisation
-  image: example.jpg
-- name: Mon CDI 3
-  client : Mon CDI
-  position: conception + réalisation
-  image: example.jpg
-- name: Mon CDI 4
-  client : Mon CDI
-  position: conception + réalisation
-  image: example.jpg
-- name: Mon CDI 5
-  client : Mon CDI
-  position: conception + réalisation
-  image: example.jpg
-- name: Mon CDI 6
-  client : Mon CDI
-  position: conception + réalisation
-  image: example.jpg
+- name: "Vidéo presse Mon CDI"
+  client : "Mon CDI"
+  position: "réalisation"
+  category: "institutionnel"
+  image: "mon-cdi.png"
+- name: "Voeux Linvosges 2019"
+  client : "Agence Elvis"
+  position: "animateur 2D"
+  category: "institutionnel"
+  image: "voeux-linvosge.png"
+- name: "Lancement collectif Dragones"
+  client : "Dragones"
+  position: "réalisation"
+  category: "publicité"
+  image: "dragones.png"
+- name: "10 ans d’Elvis"
+  client : "Agence Elvis"
+  position: "montage, animation 2d, réalisation, mixage"
+  category: "institutionnel"
+  image: "elvis.png"
+- name: "Voeux 2018 Mobility"
+  client : "Agence Hautefeuille"
+  position: "montage"
+  category: "institutionnel"
+  image: "mobility.png"
+- name: "[KFC] Champions League X Pepsi 1"
+  client : "Agence Geek & Food"
+  position: "réalisation"
+  category: "publicité"
+  image: "kfc-pepsi-1.png"
+- name: "[KFC] Champions League X Pepsi 2"
+  client : "Agence Geek & Food"
+  position: "réalisation"
+  category: "publicité"
+  image: "kfc-pepsi-2.png"
+- name: "Intérieur Que X Le Bal Masqué"
+  client : "Culture Next"
+  position: "réalisation"
+  category: "publicité"
+  image: "interieur-queer.png"
+- name: "[Bjorg] À Consommer de Préférence"
+  client : "Agence Hautefeuille"
+  position: "réalisation"
+  category: "magazine"
+  image: "bjorg.png"
