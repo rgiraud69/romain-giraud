@@ -4,14 +4,15 @@ title: Home
 ---
 
 <div class="categories">
-  <p class="category">institutionnel</p>
-  <p class="category">publicité</p>
-  <p class="category">magazine | documentaire</p>
+  <p class="Category Category--blue" id="category-institutionnal">tout</p>
+  <p class="Category Category--pink" id="category-institutionnal">institutionnel</p>
+  <p class="Category Category--yellow" id="category-publicity">publicité</p>
+  <p class="Category Category--green" id="category-magazine">magazine | documentaire</p>
 </div>
 
 <div class="images">
   {% for video in site.data.videos %}
-    <div class="image-container" style="background-image: url('/assets/images/{{ video.image }}')">
+    <div class="image-container video--{{ video.category }}" style="background-image: url('/assets/images/{{ video.image }}')">
       <div class="overlay">
         <p class="overlay-text overlay-text--{{ video.category }}">
           > {{ video.name }}<br>
@@ -22,3 +23,5 @@ title: Home
     </div>
   {% endfor %}
 </div>
+
+<script src="{{ base.url | prepend: site.url }}/assets/js/filterCategories.js"></script>

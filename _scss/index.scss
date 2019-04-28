@@ -13,6 +13,7 @@
 .category {
   margin: 0 0 0.8rem 2rem;
   text-align: right;
+  cursor: pointer;
 }
 
 .images {
@@ -50,6 +51,28 @@
 
   &:hover {
     opacity: 1;
+  }
+}
+
+.overlayColor {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: default;
+
+  &--institutional {
+    background-color: $pink;
+  }
+
+  &--publicity {
+    background-color: $yellow;
+  }
+
+  &--magazine {
+    background-color: $green;
   }
 }
 
