@@ -1,0 +1,50 @@
+.Category {
+  margin: 0 0 0.8rem 2rem;
+  text-align: right;
+  cursor: pointer;
+  transition: all .4s cubic-bezier(.215,.61,.355,1);
+
+  &--pink {
+
+    &:hover {
+      color: $pink;
+    }
+
+    &.Category--active {
+      color: $pink;
+    }
+  }
+
+  &--yellow {
+
+    &:hover {
+      color: $yellow;
+    }
+
+    &.Category--active {
+      color: $yellow;
+    }
+  }
+
+  &--green {
+
+    &:hover {
+      color: $green;
+    }
+
+    &.Category--active {
+      color: $green;
+    }
+  }
+
+  &--blue {
+
+    &:hover {
+      color: $blue;
+    }
+
+    &.Category--active {
+      color: $blue;
+    }
+  }
+}
