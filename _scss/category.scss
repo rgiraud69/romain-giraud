@@ -1,50 +1,62 @@
-.Category {
-  margin: 0 0 0.8rem 2rem;
-  text-align: right;
-  cursor: pointer;
-  transition: all .4s cubic-bezier(.215,.61,.355,1);
+.Categories {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  flex-direction: column;
 
-  &--pink {
-
-    &:hover {
-      color: $pink;
-    }
-
-    &.Category--active {
-      color: $pink;
-    }
+  @media (min-width: 720px) {
+    flex-direction: row;
+    font-size: 1.5rem;
   }
 
-  &--yellow {
+  &-item {
+    margin: 0 0 0.8rem 2rem;
+    text-align: right;
+    cursor: pointer;
+    transition: all .4s cubic-bezier(.215,.61,.355,1);
 
-    &:hover {
-      color: $yellow;
+    &--pink {
+
+      &:hover {
+        color: $pink;
+      }
+
+      &.Category--active {
+        color: $pink;
+      }
     }
 
-    &.Category--active {
-      color: $yellow;
-    }
-  }
+    &--yellow {
 
-  &--green {
+      &:hover {
+        color: $yellow;
+      }
 
-    &:hover {
-      color: $green;
-    }
-
-    &.Category--active {
-      color: $green;
-    }
-  }
-
-  &--blue {
-
-    &:hover {
-      color: $blue;
+      &.Category--active {
+        color: $yellow;
+      }
     }
 
-    &.Category--active {
-      color: $blue;
+    &--green {
+
+      &:hover {
+        color: $green;
+      }
+
+      &.Category--active {
+        color: $green;
+      }
+    }
+
+    &--blue {
+
+      &:hover {
+        color: $blue;
+      }
+
+      &.Category--active {
+        color: $blue;
+      }
     }
   }
 }

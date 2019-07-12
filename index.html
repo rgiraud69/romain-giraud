@@ -3,18 +3,18 @@ layout: default
 title: Home
 ---
 
-<div class="categories">
-  <p class="Category Category--blue" id="category-institutionnal">tout</p>
-  <p class="Category Category--pink" id="category-institutionnal">institutionnel</p>
-  <p class="Category Category--yellow" id="category-publicity">publicité</p>
-  <p class="Category Category--green" id="category-magazine">magazine | documentaire</p>
+<div class="Categories">
+  <p class="Categories-item Categories-item--blue">tout</p>
+  <p class="Categories-item Categories-item--pink">institutionnel</p>
+  <p class="Categories-item Categories-item--yellow">publicité</p>
+  <p class="Categories-item Categories-item--green">magazine | documentaire</p>
 </div>
 
-<div class="images">
+<div class="Images">
   {% for video in site.data.videos %}
-    <div class="image-container video--{{ video.category }}" style="background-image: url('/assets/images/{{ video.image }}')">
-      <div class="overlay">
-        <p class="overlay-text overlay-text--{{ video.category }}">
+    <div class="ImageContainer Video--{{ video.category }}" style="background-image: url('/assets/images/{{ video.image }}')">
+      <div class="Overlay">
+        <p class="Overlay-text Overlay-text--{{ video.category }}">
           > {{ video.name }}<br>
           client : {{ video.client }}<br>
           poste : {{ video.position }}
