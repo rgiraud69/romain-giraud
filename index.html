@@ -11,11 +11,11 @@ title: Home
 </div>
 
 <div class="Images">
-  {% for video in site.data.videos %}
+  {% for video in site.videos %}
     <div class="ImageContainer Video--{{ video.category }}" style="background-image: url('/assets/images/{{ video.image }}')">
       <div class="Overlay">
         <p class="Overlay-text Overlay-text--{{ video.category }}">
-          > {{ video.name }}<br>
+          > {{ video.title }}<br>
           client : {{ video.client }}<br>
           poste : {{ video.position }}
         </p>
