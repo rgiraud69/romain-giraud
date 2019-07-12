@@ -7,3 +7,10 @@ sass:
 collections:
   videos:
     output: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"

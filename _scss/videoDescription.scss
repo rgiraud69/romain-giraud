@@ -1,0 +1,25 @@
+.VideoDescription {
+  font-size: 1rem;
+  margin: 0;
+  display: inline-block;
+
+  &--publicity {
+    color: $yellow;
+  }
+
+  &--magazine {
+    color: $green;
+  }
+
+  &--institutional {
+    color: $pink;
+  }
+
+  @media (min-width: 720px) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 960px) {
+    font-size: 1.5rem;
+  }
+}

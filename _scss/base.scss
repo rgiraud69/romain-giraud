@@ -36,4 +36,6 @@ p {
   margin-right: auto;
   margin-left: auto;
   max-width: 1326px;
+  display: flex;
+  flex-direction: column;
 }
