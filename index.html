@@ -12,15 +12,16 @@ title: Home
 
 <div class="Images">
   {% for video in site.videos %}
-    <div class="ImageContainer Video--{{ video.category }}" style="background-image: url('/assets/images/{{ video.image }}')">
+    <a class="ImageContainer Video--{{ video.category }}"
+       href="{{ video.url }}"
+       style="background-image: url('/assets/images/{{ video.image }}')">
       <div class="Overlay">
-        <p class="Overlay-text Overlay-text--{{ video.category }}">
-          > {{ video.title }}<br>
-          client : {{ video.client }}<br>
-          poste : {{ video.position }}
-        </p>
+        {% include video_description.html title=video.title
+                                          client=video.client
+                                          category=video.category
+                                          position=video.position %}
       </div>
-    </div>
+    </a>
   {% endfor %}
 </div>
 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <div class="Container">
+      {% include navbar.html %}
+      <div class="VideoContainer">
+        <div class="VideoContainer-info">
+          {% include video_description.html title=page.title
+                                            client=page.client
+                                            category=page.category
+                                            position=page.position %}
+          <a href="/" class="VideoContainer-back">retour</a>
+        </div>
+        <div class="VideoContainer-wrapper">
+          <iframe src="{{ page.video-url }}"
+                  class="VideoContainer-video"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
