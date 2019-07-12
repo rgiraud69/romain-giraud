@@ -1,27 +1,9 @@
-.categories {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 1.2rem;
-  flex-direction: column;
-
-  @media (min-width: 720px) {
-    flex-direction: row;
-    font-size: 1.5rem;
-  }
-}
-
-.category {
-  margin: 0 0 0.8rem 2rem;
-  text-align: right;
-  cursor: pointer;
-}
-
-.images {
+.Images {
   display: flex;
   flex-wrap: wrap;
 }
 
-.image-container {
+.ImageContainer {
   width: calc(100%/2);
   height: 200px;
   background-size: cover;
@@ -39,7 +21,7 @@
   }
 }
 
-.overlay {
+.Overlay {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -52,51 +34,29 @@
   &:hover {
     opacity: 1;
   }
-}
 
-.overlayColor {
-  opacity: 1;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  cursor: default;
+  &-text {
+    font-size: 1rem;
+    padding: 1rem 2rem;
 
-  &--institutional {
-    background-color: $pink;
-  }
+    &--publicity {
+      color: $yellow;
+    }
 
-  &--publicity {
-    background-color: $yellow;
-  }
+    &--magazine {
+      color: $green;
+    }
 
-  &--magazine {
-    background-color: $green;
-  }
-}
+    &--institutional {
+      color: $pink;
+    }
 
-.overlay-text {
-  font-size: 1rem;
-  padding: 1rem 2rem;
+    @media (min-width: 720px) {
+      font-size: 1.2rem;
+    }
 
-  &--publicity {
-    color: $yellow;
-  }
-
-  &--magazine {
-    color: $green;
-  }
-
-  &--institutional {
-    color: $pink;
-  }
-
-  @media (min-width: 720px) {
-    font-size: 1.2rem;
-  }
-
-  @media (min-width: 960px) {
-    font-size: 1.5rem;
+    @media (min-width: 960px) {
+      font-size: 1.5rem;
+    }
   }
 }

@@ -1,11 +1,11 @@
-const categories = document.querySelectorAll('.Category');
-const institutionalVideos = document.querySelectorAll('.video--institutional');
-const publicityVideos = document.querySelectorAll('.video--publicity');
-const magazineVideos = document.querySelectorAll('.video--magazine');
+const categories = document.querySelectorAll('.Categories-item');
+const institutionalVideos = document.querySelectorAll('.Video--institutional');
+const publicityVideos = document.querySelectorAll('.Video--publicity');
+const magazineVideos = document.querySelectorAll('.Video--magazine');
 
 categories.forEach(category => category.addEventListener("click", event => {
-  categories.forEach(category => category.classList.remove('Category--active'));
-  category.classList.add('Category--active');
+  categories.forEach(category => category.classList.remove('Categories-item--active'));
+  category.classList.add('Categories-item--active');
 
   if ( category.innerText === 'institutionnel') {
     institutionalVideos.forEach(video => video.style.display = "");
