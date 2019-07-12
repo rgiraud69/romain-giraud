@@ -1,0 +1,41 @@
+.Contact {
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
+
+  &-picture {
+    width: 50vw;
+    margin-bottom: 3rem;
+
+    @media (min-width: 768px) {
+      width: 20vw;
+    }
+  }
+
+  &-description {
+    max-width: 40rem;
+
+    @media (min-width: 768px) {
+      margin-left: 5rem;
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  ul {
+    margin-bottom: 2rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+    list-style-type: square;
+    margin-bottom: 0.5rem;
+  }
+}

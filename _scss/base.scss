@@ -8,6 +8,28 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: $white;
+  transition: all .4s cubic-bezier(.215,.61,.355,1);
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+p {
+  margin-top: 0;
+}
+
 
 .Container {
   padding: 25px 25px;
