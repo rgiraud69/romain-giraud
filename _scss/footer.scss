@@ -2,13 +2,26 @@
   padding-top: 4rem;
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
+
+  &-name {
+    margin-right: 2rem;
+  }
 
   &-nada {
     margin-left: auto;
   }
 
+  ul {
+    padding-left: 0;
+  }
+
   li {
-    display: inline-block;
-    margin-right: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+
+    @media (min-width: 960px) {
+      display: inline-block;
+    }
   }
 }
