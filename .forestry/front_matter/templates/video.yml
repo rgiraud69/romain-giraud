@@ -26,3 +26,13 @@ fields:
 - type: text
   name: permalink
   label: permalink
+- name: production_date
+  type: datetime
+  label: Date de création
+  description: Date à laquelle la vidéo a été réalisée, vidéos apparaissant dans l'ordre
+    chronologique
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
