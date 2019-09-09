@@ -1,0 +1,28 @@
+---
+label: Video
+hide_body: true
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: text
+  name: client
+  label: client
+- type: text
+  name: position
+  label: position
+- type: text
+  name: category
+  label: category
+- type: file
+  name: image
+  label: image
+- type: text
+  name: video-url
+  label: video-url
+- type: text
+  name: permalink
+  label: permalink
