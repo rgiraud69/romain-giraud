@@ -37,4 +37,5 @@ fields:
     time_format: 
     display_utc: false
 pages:
+- _videos/bjorg-a-consommer-de-preference.md
 - _videos/10-ans-elvis.md
