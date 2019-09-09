@@ -37,6 +37,7 @@ fields:
     time_format: 
     display_utc: false
 pages:
+- _videos/reportage-meshuitres.com.md
 - _videos/professio-teaser.md
 - _videos/marseille-provence-2013-etat-des-lieux.md
 - _videos/les-soignants-invisibles.md
