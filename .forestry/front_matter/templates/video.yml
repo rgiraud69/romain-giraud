@@ -37,6 +37,7 @@ fields:
     time_format: 
     display_utc: false
 pages:
+- _videos/voeux-2016-maewan.md
 - _videos/videos-presse-mon-cdi.md
 - _videos/reportage-meshuitres.com.md
 - _videos/professio-teaser.md
