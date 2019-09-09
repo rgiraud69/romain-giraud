@@ -37,5 +37,6 @@ fields:
     time_format: 
     display_utc: false
 pages:
+- _videos/kfc-champions-league-x-pepsi-1.md
 - _videos/bjorg-a-consommer-de-preference.md
 - _videos/10-ans-elvis.md
