@@ -11,7 +11,8 @@ title: Home
 </div>
 
 <div class="Images">
-  {% for video in site.videos %}
+  {% assign sorted_videos = site.videos | sort: 'production_date' %}
+  {% for video in sorted_videos %}
     <a class="ImageContainer Video--{{ video.category }}"
        href="{{ video.url }}"
        style="background-image: url('/assets/images/{{ video.image }}')">
