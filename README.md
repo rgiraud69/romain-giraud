@@ -1,6 +1,6 @@
 # Romain Giraud Website Readme
 
-This website is a showcase website for a free lancer. It is a static site generated using [Jekyll](https://jekyllrb.com/).
+This website is a showcase website for a free lancer who makes videos. It is a static site generated using [Jekyll](https://jekyllrb.com/).
 It is hosted on [Netlify](https://www.netlify.com/) and uses [Forestry](https://forestry.io/) as a CMS.
 The website is available at https://www.romaingiraud.fr.
 
